@@ -17,10 +17,8 @@ public class Apple {
     private int seedCount;
 
     public Apple() {
-        seedCount = (int)(Math.random() * 10);
+        seedCount = (int)((Math.random() * 10) + 1);
+        System.out.println("Rose apple with " + seedCount + " seeds.");
     }
 
-    public Apple (int count) {
-        seedCount = count;
-    }
 }
