@@ -10,6 +10,7 @@ public class TreeTest {
         Tree tree = new Tree();
         for (int i = 0; i < 10; i++) {
             tree.Grow();
+            tree.Shake();
         }
     }
 }

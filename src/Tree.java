@@ -16,16 +16,19 @@ public class Tree {
 
     public void Grow() {
         int count = (int)((Math.random() * 10) + 1);
+        System.out.println("The tree grew " + count + " apples.");
         for (int i = 0; i < count; i++) {
             apples.add(new Apple());
         }
-        System.out.println("The tree grew " + count + " apples.");
+
     }
 
-    /*public void Shake() {
+    public void Shake() {
         int count = (int)(Math.random() * apples.size());
+        System.out.println("The tree fell " + count + " apples.");
         for (int i = 0; i < count; i++) {
             apples.remove(0);
         }
-    }*/
+
+    }
 }
