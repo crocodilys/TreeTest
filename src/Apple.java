@@ -6,17 +6,20 @@
  * To change this template use File | Settings | File Templates.
  */
 public class Apple {
-    public int getSeedCount() {
+    public int getSeedCount()
+    {
         return seedCount;
     }
 
-    public void setSeedCount(int seedCount) {
+    public void setSeedCount(int seedCount)
+    {
         this.seedCount = seedCount;
     }
 
     private int seedCount;
 
-    public Apple() {
+    public Apple()
+    {
         seedCount = (int)((Math.random() * 10) + 1);
         System.out.println("Rose apple with " + seedCount + " seeds.");
     }
