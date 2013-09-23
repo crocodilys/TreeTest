@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6137fe39-8492-4307-8ac6-93e44212cc81" name="Default" comment="Init commit">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Apple.java" afterPath="$PROJECT_DIR$/src/Apple.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tree.java" afterPath="$PROJECT_DIR$/src/Tree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TreeTest.java" afterPath="$PROJECT_DIR$/src/TreeTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PT_LAB1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Apple.java" changelist="6137fe39-8492-4307-8ac6-93e44212cc81" time="1378738390971" ignored="false" />
-    <file path="/Tree.java" changelist="6137fe39-8492-4307-8ac6-93e44212cc81" time="1379679406697" ignored="false" />
+    <file path="/Tree.java" changelist="6137fe39-8492-4307-8ac6-93e44212cc81" time="1379932100609" ignored="false" />
     <file path="/Main.java" changelist="6137fe39-8492-4307-8ac6-93e44212cc81" time="1378738895937" ignored="false" />
     <file path="/TreeTest.java" changelist="6137fe39-8492-4307-8ac6-93e44212cc81" time="1379679440212" ignored="false" />
-    <file path="/Dummy.txt" changelist="6137fe39-8492-4307-8ac6-93e44212cc81" time="1379677524839" ignored="false" />
+    <file path="/Dummy.txt" changelist="6137fe39-8492-4307-8ac6-93e44212cc81" time="1379931488343" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +26,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -64,7 +63,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -86,7 +84,7 @@
       <file leaf-file-name="Tree.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="45" selection-start="469" selection-end="469" vertical-scroll-proportion="-1.4519231">
+            <state line="76" column="29" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.5955335">
               <folding />
             </state>
           </provider>
@@ -95,7 +93,7 @@
       <file leaf-file-name="TreeTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="51" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0">
+            <state line="12" column="4" selection-start="247" selection-end="285" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,8 +119,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Apple.java" />
-        <option value="$PROJECT_DIR$/src/Tree.java" />
         <option value="$PROJECT_DIR$/src/TreeTest.java" />
+        <option value="$PROJECT_DIR$/src/Tree.java" />
       </list>
     </option>
   </component>
@@ -130,10 +128,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="59" />
-    <option name="y" value="24" />
-    <option name="width" value="1221" />
-    <option name="height" value="776" />
+    <option name="x" value="58" />
+    <option name="y" value="-4" />
+    <option name="width" value="1223" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -163,12 +161,16 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="All">
+      <pane id="PackagesPane">
+        <subPane>
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PT_LAB1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PT_LAB1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -181,42 +183,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PT_LAB1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PT_LAB1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PT_LAB1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PT_LAB1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="All">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PT_LAB1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PT_LAB1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -390,7 +364,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="24" width="1221" height="776" extended-state="6" />
+    <frame x="58" y="-4" width="1223" height="805" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -577,13 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="51" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Apple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="34" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
@@ -591,9 +558,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/TreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="4" selection-start="247" selection-end="285" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="45" selection-start="469" selection-end="469" vertical-scroll-proportion="-1.4519231">
+        <state line="76" column="29" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.5955335">
           <folding />
         </state>
       </provider>

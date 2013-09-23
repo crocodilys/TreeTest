@@ -24,9 +24,8 @@ public class Tree {
 
     public void grow()
     {
-        if (status != Status.FLOWERS)
+        if (!checkStatus(status, Status.FLOWERS, "'grow'"))
         {
-            System.out.println("You can't do 'grow', because tree status is: " + status);
             return;
         }
         System.out.println("The tree grew " + flowersCount + " apples.");
@@ -43,9 +42,8 @@ public class Tree {
 
     public void shake()
     {
-        if (status != Status.APPLES)
+        if (!checkStatus(status, Status.APPLES, "'shake'"))
         {
-            System.out.println("You can't do 'shake', because tree status is: " + status);
             return;
         }
         int applesCount = (int)((Math.random() * apples.size()) + 1);
@@ -65,20 +63,35 @@ public class Tree {
 
     public void flowering()
     {
-        if (status != Status.NEW)
+        if (!checkStatus(status, Status.NEW, "'flowering'"))
         {
-            System.out.println("You can't do 'flowering', because tree status is: " + status);
             return;
         }
         flowersCount = (int)((Math.random() * 10) + 1);
-        System.out.println("The tree grew " + flowersCount + " flowers.");
+        print("The tree grew " + flowersCount + " flowers.");
         status = Status.FLOWERS;
     }
 
     public void reset()
     {
+        print("Reseting tree.");
         flowersCount = 0;
         apples.clear();
         status = Status.NEW;
+    }
+
+    private void print(String s)
+    {
+        System.out.println(s);
+    }
+
+    private boolean checkStatus(Status current, Status required, String action)
+    {
+        if (current != required)
+        {
+            print("You can't perform " + action + ". Current status: " + current + ". Required: " + required + ".");
+            return false;
+        }
+        return true;
     }
 }
